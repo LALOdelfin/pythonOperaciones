@@ -26,7 +26,8 @@ print("Sumatoria", s)
 p=promediar(datos)
 print("Promedio", p)
 
-cant=contar_org("organization_v3.csv")
+cant=contar_org("Organization_v3.csv")
 
 print("Cantidad de organizaciones:", cant)
+
 

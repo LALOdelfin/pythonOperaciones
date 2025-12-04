@@ -14,7 +14,6 @@ def promediar(numeros:list[float]) ->float:
     return prom
 
 #contar las organizaciones en el archivo organizaciones.csv
-import pandas as pd
 def contar_org(ruta):
     datos=pd.read_csv(ruta, encoding="latin-1")
     conteo = len(datos)
@@ -30,3 +29,4 @@ print("Promedio", p)
 cant=contar_org("organization_v3.csv")
 
 print("Cantidad de organizaciones:", cant)
+

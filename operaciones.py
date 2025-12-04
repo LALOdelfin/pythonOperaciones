@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 #Funcion que recibe una lista de numeros y regresa la sumatoria
 def sumar(numeros:list[float]) -> float:
     res=sum(numeros)
@@ -25,4 +28,5 @@ p=promediar(datos)
 print("Promedio", p)
 
 cant=contar_org("organization_v3.csv")
+
 print("Cantidad de organizaciones:", cant)
